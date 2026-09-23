@@ -1,0 +1,5 @@
+.claude/
+reference/
+*.bak
+node_modules/
+Sylvanus_Augustus_CV.docx

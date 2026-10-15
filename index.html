@@ -133,12 +133,12 @@
         <span class="line"><span style="--i:0">Selected</span></span>
         <span class="line"><span style="--i:1" class="it">work</span></span>
       </h2>
-      <p>Vellum is live. More case studies are on the way.</p>
+      <p>A payments product, a macro data warehouse and a funeral home's site and admin. All three are live.</p>
     </div>
     <div class="stack" id="stack">
       <article class="card" style="--cb:#132741;--cf:#EEF0EC">
         <div class="info">
-          <div class="meta"><span>Full-stack · Live</span><span>2026</span></div>
+          <div class="meta"><span>Full-stack · Live</span><span>2025</span></div>
           <div>
             <h3>Vellum <em>Invoicing</em></h3>
             <p>Invoicing and payments for studios and freelancers. Clients pay by card from a link, with no account. Stripe and Paystack sit behind one interface, webhooks can't count a payment twice, and uploaded bills are parsed with a confidence score on every field.</p>
@@ -150,6 +150,37 @@
           </div>
         </div>
         <div class="art-wrap"><div class="art" data-speed="-0.07" style="background-image:url('Img/vellum.png')"></div><div class="dim"></div></div>
+      </article>
+      <article class="card" style="--cb:#14312A;--cf:#F2EFE7">
+        <div class="info">
+          <div class="meta"><span>Data engineering · Live</span><span>2026</span></div>
+          <div>
+            <h3>Ledger <em>Macro Warehouse</em></h3>
+            <p>A scheduled pipeline that pulls 45 US economic series from the St. Louis Fed into Postgres, builds an analytics layer on top, and serves it as a dashboard. Recession signals are recomputed from the warehouse rather than downloaded ready-made, and every forecast ships with the backtest that earns it.</p>
+            <div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>pandas</span><span>React</span></div>
+          </div>
+          <div class="go">
+            <a class="btn sm light" href="https://ledger-web-8toj.onrender.com" target="_blank" rel="noopener">Visit live site ↗</a>
+            <a class="btn sm light" href="https://github.com/PR0T0TYP3-007/FRED-Analysis-Dashboard" target="_blank" rel="noopener">Source ↗</a>
+            <p class="demo">Refreshed every weekday morning · 84 tests</p>
+          </div>
+        </div>
+        <div class="art-wrap"><div class="art" data-speed="-0.07" style="background-image:url('Img/ledger.png')"></div><div class="dim"></div></div>
+      </article>
+      <article class="card" style="--cb:#0C0C0C;--cf:#F6F2EA">
+        <div class="info">
+          <div class="meta"><span>Full-stack · Live</span><span>2026</span></div>
+          <div>
+            <h3>Sylva-Pat <em>Funeral Services</em></h3>
+            <p>A public site and a private admin area for a funeral home in Anambra State. Every read falls back to static content when the database is unreachable, so the phone number is never off screen. Inside, payments are kept as a ledger and vehicle clashes warn instead of blocking.</p>
+            <div class="tags"><span>Next.js</span><span>React 19</span><span>Supabase</span><span>Tailwind v4</span><span>GSAP</span></div>
+          </div>
+          <div class="go">
+            <a class="btn sm light" href="https://new.sylvapat.com/" target="_blank" rel="noopener">Visit live site ↗</a>
+            <p class="demo">Client project · private repository</p>
+          </div>
+        </div>
+        <div class="art-wrap"><div class="art" data-speed="-0.07" style="background-image:url('Img/sylvapat.jpg')"></div><div class="dim"></div></div>
       </article>
     </div>
   </div>
